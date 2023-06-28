@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles/login.css">
+    <title>Vite App</title>
+  </head>
+  <body>
+    <main>
+      <div class="login">
+        <img src="./public/img/orange-triangle.png" alt="" class="orange-triangle">
+        <div class="log-box">
+          
+          <h1>Welcome</h1>
+          <form name="login">
+            <div class="log-inp email-login" >
+              <img src="./public/icon/user.svg" alt="">
+              <input type="email" placeholder = "E-mail or Login" name="emaill">
+            </div>
+            <div class="log-inp password-login">
+              <img src="./public/icon/lock.svg" alt="">
+              <input type="password" placeholder ="Password" class="inpPass" name="passwordd">
+              <img src="./public/icon/eye-off.svg" alt="" class="showPass">
+            </div>
+            <button class="sign-up" type="button">SIGN UP</button>
+            <button class="sign-in active-button" type="submit ">SIGN IN</button>
+          </form>
+          <a href="#">Forgot your password?</a>
+        </div>
+        <div class="reg-box">
+          
+          <h1>SIGN UP</h1>
+          <form name="registration">
+            <div class="log-inp name" >
+              <img src="./public/icon/user.svg" alt="">
+              <input type="text" placeholder = "Name" name="name">
+            </div>
+            <div class="log-inp email-login" >
+              <img src="./public/icon/user.svg" alt="">
+              <input type="email" placeholder = "E-mail" name="email">
+            </div>
+            <div class="log-inp password-login">
+              <img src="./public/icon/lock.svg" alt="">
+              <input type="password" placeholder =" Create Password" class="inpPass" name="password">
+              <img src="./public/icon/eye-off.svg" alt="" class="showPass" >
+            </div>
+            <button class="sign-up active-button" type="submit">SIGN UP</button>
+            <button class="sign-in " type="button ">SIGN IN</button>
+          </form>
+          
+        </div>
+        <!-- <img src="./public/img/wave.png" alt="" class="wave"> -->
+        <div class="valuet-login">
+          <h1>VALUET</h1>
+          <hr>
+          <h2>Your currency dashboard</h2>
+          <img src="./public/img/gradient-triangle.png" alt="">
+        </div>
+      </div>
+
+      </div>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

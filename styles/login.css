@@ -1,0 +1,174 @@
+.login {
+  width: 100%;
+  max-width: 1900px;
+  margin: 150px;
+  /* background-color: red; */
+  display: flex;
+}
+
+.log-box,
+.reg-box {
+  width: 480px;
+  height: 595px;
+  border-radius: 8px;
+  background: linear-gradient(180deg, #1E1156 0%, rgba(28, 35, 64, 0) 100%);
+  box-shadow: 0px 25px 25px 0px #00032080;
+  text-align: center;
+  padding-top: 100px;
+  transition: .5s ease;
+
+
+}
+
+.log-box,
+.reg-box h1 {
+  color: white;
+  margin-bottom: 50px;
+
+}
+
+.wave {
+  position: relative;
+  top: -500px;
+
+
+}
+
+.orange-triangle {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: 100px;
+}
+
+.log-inp {
+  width: 380px;
+  height: 58px;
+  border-radius: 8px;
+  background: #2E3558;
+  box-shadow: 0px 4px 4px 0px #0000000D;
+  margin: 20px auto;
+  display: flex;
+  /* padding-top: 20px ; */
+  transition: .5s ease;
+
+}
+
+.active-logInp {
+  border-bottom: 2px solid #1288E8;
+}
+.error-logInp {
+  border-bottom: 2px solid #e81212;
+}
+
+.log-inp input {
+  all: unset;
+  width: 300px;
+  text-align: left;
+  /* display: block; */
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+
+
+}
+
+.log-inp img {
+  width: 25px;
+
+}
+
+.sign-in,
+.sign-up {
+  all: unset;
+  width: 105px;
+  height: 42px;
+  border-radius: 8px;
+  margin-top: 50px;
+  margin-right: 30px;
+  margin-left: 30px;
+  background: linear-gradient(88.43deg, #2F3453 11.5%, #242845 76.7%);
+  color: #949EC0;
+  box-shadow: 0px 4px 12px 0px #00000026;
+  transition: .5s ease;
+  margin-bottom: 100px;
+  font-weight: 800;
+  color: white;
+}
+
+.active-button {
+
+  background: linear-gradient(271.88deg, #3887FE 4.26%, #3BA0FF 51.37%, #5FB2FF 99.01%);
+  box-shadow: 0px 4px 12px 0px #00000026;
+
+}
+
+.login a {
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  color: #5FB2FF;
+
+}
+
+.valuet-login {
+  width: 100%;
+  max-width: 500px;
+  height: 200px;
+  margin: 200px;
+  /* margin-left: 200px; */
+  /* background-color: red; */
+  text-align: center;
+}
+
+.valuet-login h1 {
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 85px;
+  letter-spacing: 0.05em;
+
+  background: linear-gradient(271.88deg, #3887FE 4.26%, #3BA0FF 51.37%, #5FB2FF 99.01%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.valuet-login hr {
+  width: 0px;
+  margin: 0 auto;
+  border: 2px solid #1288E8;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.valuet-login:hover hr {
+  width: 175px;
+  opacity: 1;
+  border: 2px solid #1288E8;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.valuet-login h2 {
+
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0em;
+  color: white;
+}
+
+.valuet-login img {
+  position: relative;
+  right: 50%;
+}
+
+.reg-box {
+  /* position: absolute; */
+
+  opacity: 0;
+  display: none;
+  transition: .5s ease;
+  /* margin-left: -480px; */
+}

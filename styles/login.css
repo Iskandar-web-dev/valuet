@@ -24,6 +24,7 @@
 .reg-box h1 {
   color: white;
   margin-bottom: 50px;
+  transition: .5s ease;
 
 }
 
@@ -171,4 +172,10 @@
   display: none;
   transition: .5s ease;
   /* margin-left: -480px; */
+}
+.log-box h3 {
+  opacity: 0;
+  display: none;
+  color: red;
+  transition: .5s ease;
 }

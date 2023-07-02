@@ -3,7 +3,7 @@
     {
       "name": "",
       "email": "",
-      "password": "",
+      "password": "w1khmnmd21!",
       "id": 1
     },
     {
@@ -11,6 +11,26 @@
       "email": "hasanoviskandar289@gmail.com",
       "password": "Iskandar!1",
       "id": 2
+    },
+    {
+      "name": "Daler",
+      "email": "daler122@gmail.com",
+      "password": "Daler!1",
+      "id": 3
+    },
+    {
+      "name": "Iskandar",
+      "email": "iskandar@gmail.com",
+      "password": "Iskandar!1",
+      "id": 4
+    }
+  ],
+  "market": [
+    {
+      "name": "BTC",
+      "percent": -1.14,
+      "course": 1307.96,
+      "volume": 18.423
     }
   ]
 }

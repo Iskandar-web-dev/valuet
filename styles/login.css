@@ -65,6 +65,7 @@
 .log-inp input {
   all: unset;
   width: 300px;
+  
   text-align: left;
   /* display: block; */
   margin-left: 10px;

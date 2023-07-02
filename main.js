@@ -46,7 +46,7 @@ showPass.forEach(el => {
 
 let signUpForm = document.forms.registration
 let signUpFormInp = document.querySelectorAll('.reg-box input')
-console.log(signUpFormInp);
+
 let h1signup = document.querySelector('.h1signup')
 
 signUpForm.onsubmit = (e) => {
@@ -63,7 +63,6 @@ signUpForm.onsubmit = (e) => {
   
   getData('/users?email=' + user.email)
       .then(res => {
-        console.log(res);
         if (res.data.length !== 0 ) {
           h1signup.style.opacity = "0"
           h1signup.innerHTML = 'This user already exists!'
@@ -85,7 +84,6 @@ signUpForm.onsubmit = (e) => {
           postData("/users", user)
             .then(res => {
               if (res?.status === 200 || res?.status === 201) {
-                console.log(res);
                 regBox.style.opacity = '0'
                 logBox.style.display = "block"
                 setTimeout(() => {
@@ -115,7 +113,7 @@ signInForm.onsubmit = (e) => {
   })
   getData('/users?email=' + user.emaill)
     .then(res => {
-      console.log(res);
+  
       if (res.data.length === 0) {
            usernotfound.style.display = "block"
             setTimeout(() => {

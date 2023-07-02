@@ -184,24 +184,13 @@
         height: 100%;
         /* background-color: red; */
         position: absolute;
-        right: -110%;
-        display: none;
+        /* right: -110%; */
+        /* display: none; */
         transition: .5s ease;
+        
     }
-    .overview_page {
-         background-color: red;
-    }
-    .wallets_page {
-         background-color: rgb(252, 252, 252);
-    }
-    .transictions_page {
-         background-color: rgb(153, 0, 255);
-    }
-    .exchange_page {
-         background-color: rgb(55, 255, 0);
-    }
-    .market_page {
-         background-color: rgb(2, 4, 2);
+    .container h1 {
+        color: white;
     }
     .containers {
         position: absolute;
@@ -211,10 +200,17 @@
         top: 10%;
         left: 18%;
    
+    }
+
+    .market_page {
         
+        /* background-color: red; */
     }
     .show {
         position: absolute;
-        right: 0%;
-        /* display: block; */
+       
+        display: none;
+    }
+    .container a {
+        color: white;
     }

@@ -1,6 +1,6 @@
     main {
         display: flex;
-        
+
     }
 
     /* .dynamic {
@@ -185,13 +185,16 @@
         /* background-color: red; */
         position: absolute;
         /* right: -110%; */
-        /* display: none; */
+        display: none;
         transition: .5s ease;
-        
+        overflow: hidden;
+        overflow: scroll;
     }
+
     .container h1 {
         color: white;
     }
+
     .containers {
         position: absolute;
         width: 81%;
@@ -199,18 +202,153 @@
         /* background-color: red; */
         top: 10%;
         left: 18%;
-   
+        /* padding: 50px; */
+
+
     }
 
     .market_page {
-        
+
         /* background-color: red; */
     }
+
     .show {
         position: absolute;
-       
-        display: none;
+
+        display: block;
     }
+
     .container a {
         color: white;
+    }
+
+    .marketCrypto {
+        width: 346px;
+        height: 179px;
+        border-radius: 5px;
+        background: linear-gradient(180deg, rgba(27, 18, 78, 0.2) -49.17%, #0F0B38 90.11%);
+        box-shadow: 0px 4px 25px 0px #00000040;
+        margin-top: 20px;
+    }
+
+    .marketCryptoTop {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .marketCryptoLeft {
+
+        display: flex;
+    }
+
+    .marketCryptoLeft p {
+        color: white;
+
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px;
+
+
+
+    }
+
+    .marketCryptoLeft span {
+
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px;
+        margin-left: -5px;
+
+
+    }
+
+    .marketCryptoLeft div {
+        /* width: 30px; */
+        padding-top: 25px;
+    }
+
+    .marketCryptoRight {
+        margin-right: 10px;
+    }
+
+    .marketCryptoRight p {
+        display: inline;
+        margin-left: 30px;
+        margin-right: -5px;
+        color: white;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px;
+        text-align: right;
+    }
+
+    .marketCryptoRight h2 {
+
+        font-size: 19px;
+        font-weight: 600;
+        line-height: 26px;
+        color: white;
+        text-align: right;
+
+    }
+
+    .marketCryptoRight span {
+
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 19px;
+        color: #616A8B;
+        text-align: right;
+        margin-left: 20px;
+
+
+    }
+
+    .marketCrypto img {
+        margin: 0 auto;
+    }
+
+    .market_page .wrapper {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+
+        /* overflow-y: scroll; */
+    }
+
+    .container::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .page_text {
+        display: flex;
+        gap: 50px;
+    }
+
+    .page_text h1 {
+        color: white;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 25px;
+   
+
+    }
+    .page_text h2 {
+
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 19px;
+        color: #54669C;
+        margin-top: 7px;
+
+        
+
+    }
+    #myChart {
+        width: 100px;
+        height: 100px;
+    }
+    .chart {
+        width: 200px;
+        height: 300px;
     }

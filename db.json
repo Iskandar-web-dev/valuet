@@ -4,31 +4,142 @@
       "name": "",
       "email": "",
       "password": "w1khmnmd21!",
-      "id": 1
+      "id": 1,
+      "balance": 10000
     },
     {
       "name": "Iskandar",
       "email": "hasanoviskandar289@gmail.com",
       "password": "Iskandar!1",
-      "id": 2
+      "id": 2,
+      "balance": 10000
     },
     {
       "name": "Daler",
       "email": "daler122@gmail.com",
       "password": "Daler!1",
-      "id": 3
+      "id": 3,
+      "balance": 10000
     },
     {
       "name": "Iskandar",
       "email": "iskandar@gmail.com",
       "password": "Iskandar!1",
-      "id": 4
+      "id": 4,
+      "balance": 10000
     }
   ],
+  "overview":[],
   "market": [
     {
       "name": "BTC",
       "percent": -1.14,
+      "currency": "EUR",
+      "course": 1307.96,
+      "volume": 18.423
+    },
+    {
+      "name": "DASH",
+      "percent": 2.14,
+      "currency": "USD",
+      "course": 107.96,
+      "volume": 11.423
+    },
+    {
+      "name": "ETH",
+      "percent": 1.94,
+      "currency": "EUR",
+      "course": 207.96,
+      "volume": 11.423
+    },
+    {
+      "name": "BTC",
+      "percent": -1.14,
+      "currency": "EUR",
+      "course": 1307.96,
+      "volume": 18.423
+    },
+    {
+      "name": "BTC",
+      "percent": -1.14,
+      "currency": "EUR",
+      "course": 1307.96,
+      "volume": 18.423
+    },
+    {
+      "name": "BTC",
+      "percent": -1.14,
+      "currency": "EUR",
+      "course": 1307.96,
+      "volume": 18.423
+    },
+    {
+      "name": "BTC",
+      "percent": -2.14,
+      "currency": "EUR",
+      "course": 1307.96,
+      "volume": 18.423
+    },
+    {
+      "name": "BTC",
+      "percent": 11.4,
+      "currency": "EUR",
+      "course": 1307.96,
+      "volume": 18.423
+    },
+    {
+      "name": "BTC",
+      "percent": -0.94,
+      "currency": "EUR",
+      "course": 1307.96,
+      "volume": 18.423
+    },
+    {
+      "name": "BTC",
+      "percent": 1.4,
+      "currency": "EUR",
+      "course": 1307.96,
+      "volume": 18.423
+    },
+    {
+      "name": "BTC",
+      "percent": -0.14,
+      "currency": "EUR",
+      "course": 1307.96,
+      "volume": 18.423
+    },
+    {
+      "name": "BTC",
+      "percent": 4.14,
+      "currency": "EUR",
+      "course": 1307.96,
+      "volume": 18.423
+    },
+    {
+      "name": "BTC",
+      "percent": -5.14,
+      "currency": "EUR",
+      "course": 1307.96,
+      "volume": 18.423
+    },
+    {
+      "name": "BTC",
+      "percent": 1.14,
+      "currency": "EUR",
+      "course": 1307.96,
+      "volume": 18.423
+    },
+    {
+      "name": "BTC",
+      "percent": -2.14,
+      "currency": "EUR",
+      "course": 1307.96,
+      "volume": 18.423
+    },
+    {
+      "name": "BTC",
+      "percent": 3.14,
+      "currency": "EUR",
       "course": 1307.96,
       "volume": 18.423
     }

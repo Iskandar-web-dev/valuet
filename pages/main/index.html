@@ -11,10 +11,10 @@
 </head>
 
 <body>
-    
+
     <main>
-        
-        
+
+
         <aside>
             <div class="menus">
                 <center>
@@ -23,7 +23,7 @@
                         <hr>
                     </div>
                 </center>
-                <div class="active-button menu overview" data-page="overview">
+                <div class="menu overview" data-page="overview">
                     <img src="/public/icon/overwiev.svg" alt="">
                     <p>Overwiev</p>
                 </div>
@@ -35,7 +35,7 @@
                     <img src="/public/icon/transictions.svg" alt="">
                     <p>Transictions</p>
                 </div>
-                <div class="menu exchange" data-page="exchange">
+                <div class="active-button menu exchange" data-page="exchange">
                     <img src="/public/icon/exchange.svg" alt="">
                     <p>Exchange</p>
                 </div>
@@ -69,46 +69,82 @@
                 <img src="/public/icon/notice.svg" alt="">
             </div>
         </header>
-        
-                <div class="containers">
-                <div class="container overview_page show ">
-                    <div class="page_text">
-                        <h1>Overwiev</h1>
-                        <h2>25 October, Sunday</h2>
-                    </div>
-                    <div class="wrapper">
-                        <div class="top">
-                            <div class="top_left">
-                                <div class="chart">
-                                    <canvas id="myChart">
-                                        
-                                    </canvas>
+
+        <div class="containers">
+            <div class="container overview_page">
+                <div class="page_text">
+                    <h1>Overwiev</h1>
+                    <h2>25 October, Sunday</h2>
+                </div>
+                
+            </div>
+            <div class="container wallets_page">
+                <div class="page-text">
+                    <h1>Wallets</h1>
+                    <button class="create_wallet">Create wallet</button>
+                </div>
+                <div class="top">
+                    <div class="wallets_page_left">
+                        <div class="wallets_stats">
+                            <div class="chart">
+                                <h2>Total: <span class="total"></span></h2>
+                                <canvas id="myChart"></canvas>
+                            </div>
+                            <div class="top_wallets">
+                                <div class="points">
+                                    <img src="/public/img/whitePoint.png" alt="">
+                                    <img src="/img/bluePoint.png" alt="">
+                                    <img src="/public/img/yellowPoint.png" alt="">
+                                </div>
+                                <div class="wallets">
+                                    <p>Ethereum: <span class="percentWallets" style="color:white">18%</span></p>
+                                    <p>Bitcoin: <span class="percentWallets" style="color: #018FFF">64%</span></p>
+                                    <p>DASH: <span class="percentWallets" style="color:#FAD679">18%</span></p>
                                 </div>
                             </div>
-                            <div class="top-right"></div>
-                        </div>
-                        <div class="bottom">
-                            <div class="bottom-left">
-
-                            </div>
-                            <div class="bottom-right">
-
-                            </div>
                         </div>
                     </div>
+                    <div class="wallets_div"></div>
                 </div>
-                <div class="container wallets_page"><a href="">wallets</a></div>
-                <div class="container transictions_page"><a href="">transictions</a></div>
-                <div class="container exchange_page"><a href="">exchange</a></div>
-                <div class="container market_page">
-                    <h1>Market</h1>
-                    <div class="wrapper"></div>
+                <div class="bottom">
+                    <div class="chart_div">
+                        <div class="chart_line">
+                            <canvas id="myChart2"></canvas>
+                        </div>
+                    </div>
+                    <div class="recent_transactions">
+                        <h1>RECENT TRANSACTIONS</h1>
+                        <hr>
+                    </div>
                 </div>
-                </div>
+            </div>
+            <div class="container transictions_page"><a href="">transictions</a></div>
+            <div class="container exchange_page show" ><a href="">exchange</a></div>
+            <div class="container market_page">
+                <h1>Market</h1>
+                <div class="wrapper"></div>
+            </div>
+        </div>
+        </div>
+
+        <div class="popup-black">
+            <div class="popup">
+                <p class="popup-close">X</p>
+                <h1>Create new wallet</h1>
+                <form name="create_wallet" class="create_wallet_form">
+                    <select name="currency">
+                        <option>BTC</option>
+                        <option>ETH</option>
+                        <option>DASH</option>
+                      </select>
+                    <input type="number" name="balance" >
+                    <button>CREATE</button>
+                </form>
+            </div>      
     </main>
     <script type="module" src="/modules/guard.js"></script>
     <script type="module" src="./mainn.js"></script>
-    
+
 </body>
 
 </html>

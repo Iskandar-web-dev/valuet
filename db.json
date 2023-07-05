@@ -4,32 +4,28 @@
       "name": "",
       "email": "",
       "password": "w1khmnmd21!",
-      "id": 1,
-      "balance": 10000
+      "id": 1
     },
     {
       "name": "Iskandar",
       "email": "hasanoviskandar289@gmail.com",
       "password": "Iskandar!1",
-      "id": 2,
-      "balance": 10000
+      "id": 2
     },
     {
       "name": "Daler",
       "email": "daler122@gmail.com",
       "password": "Daler!1",
-      "id": 3,
-      "balance": 10000
+      "id": 3
     },
     {
       "name": "Iskandar",
       "email": "iskandar@gmail.com",
       "password": "Iskandar!1",
-      "id": 4,
-      "balance": 10000
+      "id": 4
     }
   ],
-  "overview":[],
+  "overview": [],
   "market": [
     {
       "name": "BTC",
@@ -142,6 +138,23 @@
       "currency": "EUR",
       "course": 1307.96,
       "volume": 18.423
+    }
+  ],
+  "wallets": [
+    {
+      "currency": "BTC",
+      "balance": "121212",
+      "id": 1
+    },
+    {
+      "currency": "ETH",
+      "balance": "121212",
+      "id": 2
+    },
+    {
+      "currency": "DASH",
+      "balance": "121212",
+      "id": 3
     }
   ]
 }

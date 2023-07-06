@@ -493,6 +493,7 @@
         padding: 5px;
         display: flex;
         gap: 20px;
+
     }
 
     .points {
@@ -578,6 +579,7 @@
 
         border-radius: 5px
     }
+
     .wallets_page .bottom {
         display: flex;
     }
@@ -593,15 +595,101 @@
         background: linear-gradient(176.95deg, rgba(27, 18, 78, 0.2) -32.8%, #0F0B38 88.83%);
         margin-top: 100px;
     }
+
     .recent_transactions h1 {
         font-weight: 400;
         font-size: 24px;
         margin: 10px;
         margin-left: 30px;
     }
+
     .recent_transactions hr {
         width: 450px;
         margin: 0 auto;
         border-radius: 14px;
-        border-color:  #2D317A; ;
+        border-color: #2D317A;
+        ;
+    }
+
+    .wallets_stats_overwiev {
+        width: 225.99085998535156px;
+        height: 312px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+
+        border-radius: 5px
+    }
+
+    .wallets_stats_overwiev .wallets {
+        display: flex;
+    }
+
+    .wallets_stats_overwiev .chart {
+        margin: 0 auto;
+    }
+
+    .wallets_stats_overwiev {
+        margin-left: 70px;
+    }
+
+    .two {
+        margin-left: 100px;
+    }
+
+    .one {
+        margin-left: 76px;
+    }
+
+    .three {
+        margin-left: 110px;
+    }
+
+    .wallets_stats_overwiev .top_wallets {
+        margin-top: 0px;
+    }
+
+    .exchange_page .block {
+        width: 530px;
+        height: 226px;
+        background: linear-gradient(180deg, rgba(27, 18, 78, 0.2) 0%, #0F0B38 93.37%);
+        box-shadow: 0px 4px 25px 0px #00000040;
+
+        border-radius: 5px;
+
+    }
+
+    .exchange_page .block .top {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .exchange_page select {
+        width: 100px;
+        height: 50px;
+        margin-top: 30px;
+        color: white;
+        font-weight: 700;
+        background-color: transparent;
+        border: none;
+        font-size: 24px;
+        outline: none;
+        margin-left: 50px;
+    }
+
+    .exchange_page input {
+        all: unset;
+        width: 457px;
+        height: 46px;
+        background: #32395E;
+        border-bottom: 2px solid #1288E8;
+        border-radius: 5px;
+        margin: 20px;
+        color: white;
+        font-weight: 700;
+    }
+    .exch {
+        display: flex;
+        gap: 100px;
+        margin-top: 10%;
     }

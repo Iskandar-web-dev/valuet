@@ -95,6 +95,19 @@ new Chart(ctx, {
         }]
     }
 });
+const ctx1 = document.getElementById('myChart1');
+
+new Chart(ctx1, {
+    type: 'doughnut',
+    data: {
+        // labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+        datasets: [{
+            label: '# of Votes',
+            data: [1,],
+            borderWidth: 1
+        }]
+    }
+});
 
 let createWalletsForm = document.forms.create_wallet
 let createBtn = document.querySelector('.create_wallet')

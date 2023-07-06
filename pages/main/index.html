@@ -27,7 +27,7 @@
                     <img src="/public/icon/overwiev.svg" alt="">
                     <p>Overwiev</p>
                 </div>
-                <div class="menu wallets" data-page="wallets">
+                <div class="active-button menu wallets" data-page="wallets">
                     <img src="/public/icon/wallets.svg" alt="Svg">
                     <p>Wallets</p>
                 </div>
@@ -35,7 +35,7 @@
                     <img src="/public/icon/transictions.svg" alt="">
                     <p>Transictions</p>
                 </div>
-                <div class="active-button menu exchange" data-page="exchange">
+                <div class=" menu exchange" data-page="exchange">
                     <img src="/public/icon/exchange.svg" alt="">
                     <p>Exchange</p>
                 </div>
@@ -76,9 +76,26 @@
                     <h1>Overwiev</h1>
                     <h2>25 October, Sunday</h2>
                 </div>
-                
+                <div class="wallets_stats wallets_stats_overwiev">
+                    <div class="chart">
+                        <canvas id="myChart1"></canvas>
+                    </div>
+                    <h2>Balance: <span class="balance"></span></h2>
+                    <div class="top_wallets">
+                        <div class="points">
+                            <img src="/public/img/whitePoint.png" alt="">
+                            <img src="/img/bluePoint.png" alt="">
+                            <img src="/public/img/yellowPoint.png" alt="">
+                        </div>
+                        <div class="wallets">
+                            <p>Ethereum: <span class="percentWallets one" style="color:white">18%</span></p>
+                            <p>Bitcoin: <span class="percentWallets two" style="color: #018FFF">64%</span></p>
+                            <p>DASH: <span class="percentWallets three" style="color:#FAD679">18%</span></p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="container wallets_page">
+            <div class="container wallets_page  show">
                 <div class="page-text">
                     <h1>Wallets</h1>
                     <button class="create_wallet">Create wallet</button>
@@ -119,7 +136,31 @@
                 </div>
             </div>
             <div class="container transictions_page"><a href="">transictions</a></div>
-            <div class="container exchange_page show" ><a href="">exchange</a></div>
+            <div class="container exchange_page" >
+                <div class="page-text">
+                    <h1>Exchange</h1>
+                </div>
+                <div class="exch">
+                    <div class="block from">
+                        <div class="top">
+                            <select>
+                                <option>BTC</option>
+                            </select>
+                            <img src="/public/img/crypto/btc.svg" alt="">
+                        </div>
+                        <input type="number">
+                    </div>
+                    <div class="block to">
+                        <div class="top">
+                            <select>
+                                <option>USD</option>
+                            </select>
+                            <img src="/public/img/crypto/btc.svg" alt="">
+                        </div>
+                        <input type="number" readonly="readonly">
+                    </div>
+                </div>
+                </div>
             <div class="container market_page">
                 <h1>Market</h1>
                 <div class="wrapper"></div>

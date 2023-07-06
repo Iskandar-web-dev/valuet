@@ -206,7 +206,8 @@ new Chart(ctx2, {
         datasets: [{
             label: '# of Votes',
             data: [4000, 6000, 8000, 6000, 8000],
-            borderWidth: 1
+            borderWidth: 1,
+            tension: 0.5
         }]
     }
 });
